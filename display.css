@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:#4B4B4B ;
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 900px;
+    background-color: #5A5254;
+}
+.contain-fim{
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 10px;
+    width: 24%;
+    height: 400px;
+    background-color: #1A1A1A;
+    border:1px solid rgb(94, 93, 93);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(20, 17, 17, 0.19);
+}
+.contain-image{
+    height: 320px;
+    width: 100%;
+    /* background-image: url("https://cdn.tgdd.vn/Files/2020/06/29/1266255/top-10-bo-phim-ngoai-tinh-phan-boi-hay-nhat-xem-.jpg"); */
+    background-size: cover;
+}
+.contain-type{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 30px;
+    width: 130px;
+    background-color: #92290B;
+    box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 95%);
+    color: white;
+}
+.contain-inf{
+    padding-left: 3%;
+}
+.contain-name{
+    padding-top: 5%;
+    color: #73B8BA;
+    font-weight: 900;
+}
+.contain-originalName{
+    padding-top: 3%;
+    color:whitesmoke;
+    font-size: 15px;
+}
+.contain-duration{
+    padding-top: 3%;
+    color:#4F4F4F;
+    font-size: 14px;
+}
+/* <div class="contain-name"></div>
+                <div class="contain-originalName"></div>
+                <div class="contain-duration"></div> */
